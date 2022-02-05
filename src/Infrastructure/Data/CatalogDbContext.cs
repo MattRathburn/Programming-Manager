@@ -13,7 +13,7 @@ namespace Infrastructure.Data
         public DbSet<Address> Addresses { get; set; }
         public DbSet<Organization> Organizations { get; set; }
         public DbSet<Program> Programs { get; set; }
-        public DbSet<Set> Sets { get; set; }
+        public DbSet<Workout> Workouts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
